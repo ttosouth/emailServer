@@ -18,6 +18,14 @@ Thuderbird application
 * Procmail
 * dovecot-imapd, dovecot-pop3d, dovecot-lmtpd
 
+## Project results
+Mail server with domain: wtmail.hopto.org
+
+Automated script to install an encrypted mail server with a spam tray and also accept the three operating modes:
+- Online mode: direct access to emails
+- Offline mode: synchronize the tray by taking emails from the mail server
+- Disconnected mode: allow users to keep local copies of emails
+
 ## Step 1
 1. Ask for the dynamic ip domain in No-ip (https://www.noip.com/)
 2. Configure the DNS record update in No-ip
